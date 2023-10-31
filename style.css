@@ -232,7 +232,7 @@ body{
 }
 
 .skill-icons {
-  background-color: tomato;
+  
   color: white;
   height: 650px;
   width: 540px;
@@ -245,10 +245,11 @@ body{
   font-size: 70px;
   margin-top: 200px;
   margin-left: 80px;
+  color:#e44d26;
 }
 
 .skill-icons #i5:hover {
-  color: #ffa6008d;
+  color: #ffa600;
 }
  #t1{
    margin-top: 270px;
@@ -259,7 +260,8 @@ body{
   float: left;
   font-size: 70px;
   margin-top:   -107px;
-  margin-left: 190px; /* Adjust this value */
+  margin-left: 190px; 
+  color: #1572b6;
 }
 
 .skill-icons #i6:hover {
@@ -276,6 +278,7 @@ float: left;
 font-size: 70px;
 margin-left: 300px;
 margin-top: -109px;
+color: #f0db4f;
 
 
 }
@@ -284,9 +287,102 @@ margin-top: -109px;
 }
 #t3{
 
-  margin-left: 300px;
+  margin-left: 295px;
   margin-top: -37px;
 }
+
+.skill-icons #i8{
+
+  float: left;
+  font-size: 70px;
+  margin-top: 50px;
+  margin-left: 39px;
+  color: #61dbfb;
+}
+.skill-icons #i8:hover{
+  color: #567fde;
+}
+#t4{
+  margin-top: 140px;
+  margin-left: 47px;
+}
+
+
+.skill-icons #i9{
+
+float: left;
+font-size: 70px;
+margin-left: 150px;
+margin-top: -104px;
+color: #68a063; 
+
+
+}
+
+#t5{
+
+  margin-left: 157px;
+  margin-top: -35px;
+
+}
+.skill-icons #i9:hover{
+  color: green;
+}
+
+
+
+.skill-icons #i10{
+
+float: left;
+font-size: 70px;
+margin-left: 270px;
+margin-top: -103px;
+color: #4DB33D; 
+
+
+
+}
+.skill-icons #i10:hover{
+
+color: mediumseagreen;
+
+
+
+}
+#t6{
+
+
+  margin-left: 265px;
+  margin-top: -31px;
+
+}
+
+.skill-icons #i11{
+
+
+  float: left;
+  font-size: 70px;
+  margin-left: 390px;
+  margin-top: -110px;
+  color: #4DB33D; 
+}
+
+#t7{
+
+margin-left: 386px;
+margin-top: -37px;
+
+
+}
+.skill-icons #i11:hover{
+
+
+  color: #29dc9790;
+}
+
+
+
+
 
 
 /* .card {
