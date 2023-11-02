@@ -22,7 +22,16 @@
             </ul>
 
 
-            <img id="img1" src="./unnamed.jpg" alt="profilepic">
+          
+            <div class="dropdown">
+              <img id="img1" src="./unnamed.png" alt="profilepic" style="width: 50px; height: 50px;">
+              <div class="dropdown-content">
+                <a href="./index.html">Profile</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./about.html">About</a>
+                <a href="./portfolio.html">Projects</a>
+              </div>
+            </div>
 
         </div>
 
@@ -33,15 +42,27 @@
     <div class="form-container">
         <form class="form">
           <div class="form-group">
-            <label for="email">Company Email</label>
-            <input required="" name="email" id="email" type="text">
+            <label for="name">Name</label>
+            <input required="" name="name" id="name" type="text">
           </div>
           <div class="form-group">
-            <label for="textarea">How Can We Help You?</label>
+            <label for="email">Email</label>
+            <input required="" name="email" id="email" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="textarea">How Can I Help You?</label>
             <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
           </div>
-          <button type="submit" class="form-submit-btn">Submit</button>
+
+
+          <button type="submit" class="form-submit-btn" onclick="showMessage(event)">Submit</button>
+          <div id="message">
+            Thankyou your response has been submitted!
+                    </div>
         </form>
+
+       
       </div>
 
 
@@ -72,7 +93,14 @@
 
 
 
+<script>
 
+  function showMessage(event){
+
+    event.preventDefault();
+  document.getElementById('message').style.display='block'; 
+  }
+</script>
 
 
 </body>
